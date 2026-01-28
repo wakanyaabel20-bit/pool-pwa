@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+}

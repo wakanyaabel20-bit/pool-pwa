@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pool Manager</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🏓 Pool Manager</h2>
+
+<select id="poolSelect"></select>
+
+<h3 id="today"></h3>
+
+<div class="card">
+  <p>Total Float: <b id="totalFloat">0</b></p>
+  <p>Salary: <b id="salary">0</b></p>
+  <p>Misc: <b id="misc">0</b></p>
+  <hr>
+  <p>Savings: <b id="savings">0</b></p>
+</div>
+
+<button onclick="addFloat()">➕ Add Float</button>
+
+<ul id="floatList"></ul>
+
+<script src="db.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

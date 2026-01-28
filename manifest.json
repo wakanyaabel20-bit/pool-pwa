@@ -1,0 +1,8 @@
+{
+  "name": "Pool Manager",
+  "short_name": "PoolMgr",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
